@@ -6,12 +6,11 @@ public class Cell {
 	
 	public int value;
 	
-	
-	
 	public Cell() {
 		this.value = -1;
 	}
 	
-	
-	
+	public String toString() {
+		return "Cell: " + this.value;
+	}
 }
